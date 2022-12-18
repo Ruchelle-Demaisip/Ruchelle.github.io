@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Ruchelle Denice Demaisip</title>
+		<meta charset="utf-8" />
+		<style>
+			/* Popup container - can be anything you want */
+			.popup {
+			  position: relative;
+			  display: inline-block;
+			  cursor: pointer;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			}
+			
+			/* The actual popup */
+			.popup .popuptext {
+			  visibility: hidden;
+			  width: 160px;
+			  background-color: #555;
+			  color: #fff;
+			  text-align: center;
+			  border-radius: 6px;
+			  padding: 8px 0;
+			  position: absolute;
+			  z-index: 1;
+			  bottom: 125%;
+			  left: 50%;
+			  margin-left: -80px;
+			}
+			
+			/* Popup arrow */
+			.popup .popuptext::after {
+			  content: "";
+			  position: absolute;
+			  top: 100%;
+			  left: 50%;
+			  margin-left: -5px;
+			  border-width: 5px;
+			  border-style: solid;
+			  border-color: #555 transparent transparent transparent;
+			}
+			
+			/* Toggle this class - hide and show the popup */
+			.popup .show {
+			  visibility: visible;
+			  -webkit-animation: fadeIn 1s;
+			  animation: fadeIn 1s;
+			}
+			
+			/* Add animation (fade in the popup) */
+			@-webkit-keyframes fadeIn {
+			  from {opacity: 0;} 
+			  to {opacity: 1;}
+			}
+			
+			@keyframes fadeIn {
+			  from {opacity: 0;}
+			  to {opacity:1 ;}
+			}
+			</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						<div>
+							<h1><a href="index.html" id="logo">My Website</a></h1>
+						</div>
+					</div>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<!-- <li>
+							<a href="#">Dropdown</a>
+							<ul>
+								<li><a href="#">Lorem ipsum dolor</a></li>
+								<li><a href="#">Magna phasellus</a></li>
+								<li>
+									<a href="#">Phasellus consequat</a>
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Phasellus consequat</a></li>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Veroeros feugiat</a></li>
+							</ul>
+						</li> -->
+						<!-- <li><a href="left-sidebar.html">My Resume</a></li> -->
+						<li><a href="right-sidebar.html">National News</a></li>
+						<li><a href="inter.html">International News</a></li>
+						<li><a href="no-sidebar.html">Contact Me</a></li>
+						
+					</ul>
+				</nav>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<h2 style="font-family:Segoe Script;font-size: 50px;">Ruchelle Denice Demaisip</h2>
+						<p style="text-transform: capitalize;">I am a creative and driven Journalism 
+							student with years of experience in 
+							public speaking and writing. I have a 
+							great story telling skills with a nose for 
+							truth, and unwavering dedication. I am 
+							seeking to leverage skills and 
+							experience to hone my capabilities in 
+							media and service to people. 
+							I am technology savvy and goal 
+							oriented. I am driven and motivated to 
+							help organizations thrive. I am skilled in 
+							prioritizing and completing tasks 
+							independently.</p>
+						<a href="Data/RUCHELLE DENICE DEMAISIP - CV.pdf" class="button scrolly" download="bottle" target="_blank">View/Download My CV</a>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-12">
+
+								<!-- Highlight -->
+									<section class="box highlight">
+										<ul class="special">
+												<li><a href="#" class="icon solid fa-search"><span class="label">Flask</span></a>
+													<span class="popuptext" id="myPopup">Explore</span></li>
+		
+											<li><a href="#" class="icon solid fa-flask"><span class="label">Flask</span></a>
+												<span class="popuptext" id="myPopup">Experiment</span></li>
+											<li><a href="#" class="icon solid fa-cog"><span class="label">Cog?</span></a>
+												<span class="popuptext" id="myPopup">Execute</span></li>
+		
+											  </ul>
+											
+											
+											<script>
+												// When the user clicks on div, open the popup
+												function myFunction1() {
+												  var popup = document.getElementById("myPopup");
+												  popup.classList.toggle("show");
+												}
+												</script>
+										</ul>
+										<header>
+											<h2>Motivation</h2>
+										</header>
+										<p>
+											As the eyes and ears of society, we seek to discover what is going on in the world beyond people’s doors and tell them about it. We innovate to better engage and inform the public.
+										</p>
+									</section>
+
+							</div>
+												
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
